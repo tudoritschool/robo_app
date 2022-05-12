@@ -9,9 +9,7 @@ function Robots() {
 
 	const getRobots = async () => {
 		const response = await fetch("https://jsonplaceholder.typicode.com/users");
-		console.log(response);
 		const robotsFromAPI = await response.json();
-		console.log(robotsFromAPI);
 		setRobots(robotsFromAPI);
 	};
 

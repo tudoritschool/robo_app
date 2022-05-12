@@ -1,7 +1,7 @@
 import "./Search.css";
 import { useState } from "react";
 function Search({ handleSearch }) {
-	const [inputSearch, setInputSearch] = useState("");
+	const [inputSearch, setInputSearch] = useState("Search...");
 
 	return (
 		<div className='container_search'>
